@@ -175,10 +175,8 @@ namespace UOP1.EditorTools.Replacer
 				{
 					SetSelection(new List<int> { item.id });
 					SetFocus();
-	}
-}
-
-#pragma warning restore CS0618
+				}
+			}
 
 			var labelStyle = isFocused ? whiteLabel : EditorStyles.label;
 			var contentIndent = GetContentIndent(item);
@@ -269,3 +267,5 @@ namespace UOP1.EditorTools.Replacer
 		}
 	}
 }
+
+#pragma warning restore CS0618
